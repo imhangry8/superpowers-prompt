@@ -1,45 +1,53 @@
-# Superpowers Prompt Collection
+这是关于 Superpowers Prompt 集合的说明文档翻译。这部分内容非常实用，它把方法论拆解成了可以直接复制使用的提示词文件：
 
-This repository turns the Superpowers software-development methodology into a reusable set of text prompts for AI coding assistants.
+***
 
-The goal is to make an AI assistant behave more like a disciplined engineering partner:
-- ask questions before guessing
-- design before coding
-- write a plan for multi-step work
-- write failing tests before implementation
-- verify results before claiming success
-- review before finalizing
+# Superpowers 提示词集合
 
-## Workflow
+本仓库将 Superpowers 软件开发方法论转化为一套可复用的文本提示词，供 AI 编程助手使用。
 
-1. Clarify the problem and goals
-2. Design the approach
-3. Write an implementation plan
-4. Write failing tests
-5. Implement the minimal correct fix
-6. Verify with evidence
-7. Review the work
-8. Finalize and report status
+我们的目标是让 AI 助手的行为更像一位**纪律严明的工程合作伙伴**：
+- 在猜测之前先提问
+- 在写代码之前先设计
+- 为多步骤工作编写计划
+- 在实现之前先写失败的测试
+- 在宣称成功之前先验证结果
+- 在最终确定之前先进行审查
 
-## Files
+## 🔄 工作流
 
-- `00-QUICK-START.md` — quick copy-paste prompt for everyday use
-- `01-SUPERPOWERS-SYSTEM-PROMPT.md` — requirement clarification and user-alignment stage
-- `02-DESIGN-AND-SCOPE-CLARIFICATION.md` — architecture and design stage
-- `03-PLAN-WRITING.md` — implementation planning stage
-- `04-TEST-DRIVEN-DEVELOPMENT.md` — test-first workflow
-- `05-CODE-REVIEW-SELF-CHECK.md` — review and quality gate
-- `06-VERIFICATION-AND-FINALIZE.md` — verification and delivery
+1. 澄清问题和目标
+2. 设计方法
+3. 编写实施计划
+4. 编写失败的测试
+5. 实施最小化的正确修复
+6. 用证据验证
+7. 审查工作
+8. 收尾并报告状态
 
-## How to use
+## 📂 文件说明
 
-Copy the file you want into your AI tool's system prompt or start-of-chat prompt. For the most disciplined workflow, combine them in sequence:
+- `00-QUICK-START.md` — 用于日常使用的快速复制粘贴提示词
+- `01-SUPERPOWERS-SYSTEM-PROMPT.md` — 需求澄清与用户对齐阶段
+- `02-DESIGN-AND-SCOPE-CLARIFICATION.md` — 架构与设计阶段
+- `03-PLAN-WRITING.md` — 实施计划阶段
+- `04-TEST-DRIVEN-DEVELOPMENT.md` — 测试优先的工作流
+- `05-CODE-REVIEW-SELF-CHECK.md` — 审查与质量门禁
+- `06-VERIFICATION-AND-FINALIZE.md` — 验证与交付
 
-1. Start with `01-SUPERPOWERS-SYSTEM-PROMPT.md`
-2. Move to `02-*` when the task is non-trivial
-3. Move to `03-*` for multi-step work
-4. Use `04-*` before implementation
-5. Use `05-*` before final output
-6. Use `06-*` for final verification and summary
+## 🛠️ 如何使用
 
-This is a text-only alternative to the plugin-based Superpowers system.
+将你想要的文件复制到你的 AI 工具的系统提示词或对话开头的提示词中。为了获得最严谨的工作流，请按顺序组合使用它们：
+
+1. 从 `01-SUPERPOWERS-SYSTEM-PROMPT.md` 开始
+2. 当任务比较复杂（非微不足道）时，进入 `02-*`
+3. 对于多步骤工作，进入 `03-*`
+4. 在实施之前使用 `04-*`
+5. 在最终输出之前使用 `05-*`
+6. 使用 `06-*` 进行最终验证和总结
+
+这是基于插件的 Superpowers 系统的一个纯文本替代方案。
+
+---
+需要我把 01 到 06 这些 prompt 文件的内容也逐一向你翻译过来吗？
+
